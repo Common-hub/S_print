@@ -1,0 +1,122 @@
+.row{
+    width: 100%;
+}
+.BanImg{
+    width: 100%;
+}
+.Ban-By{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.Bnr-txt{
+    font-size: 60px;
+    line-height: 70px;
+}
+.Abt-Img{
+    width: 100%;
+}
+.goalImg{
+    width: 80%;
+}
+.BusDelImg{
+    width: 100%;
+}
+
+.Top-Bnr{
+    width: 100%;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+}
+
+.para-by{
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.heding{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.para-txt{
+    font-size: 16pt;
+    font-weight: 400;
+    color: #515151;
+    align-items: center;
+    justify-items: center;
+    padding: 0px 0px 10px 30px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.ser-by{
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+    padding: 20px;
+}
+.ser-hed{
+    text-align: center;
+    justify-content: center;
+}
+.ser-sub-hed{
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    font-weight: 600;
+}
+.ser-para{
+    line-height: 3;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+.PromCrd{
+    /* width: fit-content; */
+    padding: 18px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.circle-pt{
+    border-radius: 50%;
+    display: inline-block;
+    border: 7px solid #00c389;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.bi-hed{
+    text-align: center;
+    margin-top: 8%;
+}
+.bi-text{
+ align-items: center;
+ text-align: center;
+ font-size: 18px;
+ line-height: 1.5;
+ color: #888;   
+}
+.tri-img{
+    width: 100%;
+    border-radius: 15px;
+}
+.pro-img{
+    width: 100%;
+    border-radius: 15px;
+}
+.grd-crd-by{
+    margin-top: 8%;
+}
+.grd-crd{
+    padding: 10px;
+    margin-bottom: 8%;
+    border-radius: 15px;
+}
+.grd-crd-hed{
+    
+}
