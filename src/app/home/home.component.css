@@ -6,11 +6,12 @@
     /* padding: 50px; */
 }
 .logo{
-    font-size: 3rem;
+    /* font-size: 3rem;
     font-weight: 600;
     color: #346751;
-    /* text-align: center; */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    width: 20%;
 }
 .Nvlst{
     display: inline-flex;
@@ -28,7 +29,7 @@
 .BanImg{
     width: 100%;
     border-radius: 50%;
-    background: linear-gradient(190deg, #346751 100%, #346751 100%);
+    background: linear-gradient(190deg, var(--logo-yellow-color), var(--logo-red-color) 70%);
     border-radius: 25% 30% 75% 30% / 49% 30% 70% 51%; 
     margin-top: 3%;
 }
@@ -64,7 +65,7 @@
 .bnr-btn{
     border-radius: 15px;
     font-size: 18px;
-    background-color: #346751 !important;
+    background-color: #F06868 !important;
     color: #ffffff !important;
     margin-top: 10px;
 }

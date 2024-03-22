@@ -2,3 +2,11 @@
 
 html, body { height: 100%; width: 100%; }
 body { margin: 0; font-family: "Josefin Sans", sans-serif !important }
+
+/* bd1c2c : RED , ff7d23 : Yellow            [#346751 (option)]*/  
+
+:root{
+    --logo-red-color : #bd1c2c;
+    --logo-yellow-color : #ff7d23;
+    --logo:#FFC85C;
+}
