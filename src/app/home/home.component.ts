@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
 export class HomeComponent {
  service1 = ['Banner','Posters','Stickers','Display systems','Arches','Blow ups']
  service2 = ['Translite','Sunpack sheets','Hoardings','Designing','Visual Ad creation','Acrylic'];
+ services = [{'title':'Banner', 'img':'assets/image/services/blow_up.jpeg'},
+            {'title':'Blow ups','img':'assets/image/services/blow_up.jpeg'},
+            {'title':'Blow ups','img':'assets/image/services/blow_up.jpeg'},
+            {'title':'Blow ups','img':'assets/image/services/blow_up.jpeg'},
+            {'title':'Blow ups','img':'assets/image/services/blow_up.jpeg'},
+            {'title':'Blow ups','img':'assets/image/services/blow_up.jpeg'},
+            {'title':'Blow ups','img':'assets/image/services/blow_up.jpeg'},
+            {'title':'Blow ups','img':'assets/image/services/blow_up.jpeg'},]
  promotions = [ 'Product Photography','Inshop Promotion','School,College','Telemarketing','Product management','Mailers',
               'Mobile Marketing','Market Research','Marketsurvey','Rural,Movie','Product demonstration','Home to Home',]
 }

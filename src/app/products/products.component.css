@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {     
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}

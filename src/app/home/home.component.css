@@ -1,113 +1,30 @@
-.row{
-    width: 100%;
-}
-.tolbar{
-    background-color: #ffffff;
-    /* padding: 50px; */
-}
 .logo{
-    /* font-size: 3rem;
-    font-weight: 600;
-    color: #346751;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    width: 20%;
+    display: flex;
+}
+.logo h4{
+    margin-top: 46px;
+    margin-left: -20px;
+    font-size: 20px;
+    color: var(--logo-yellow-color);
 }
 .Nvlst{
     display: inline-flex;
-    justify-content: center;
+    justify-content: end;
+    margin-top: 40px;
+    z-index: 10;
 }
 
 .Nvlst p {
-    /* margin-left: 20px; */
     margin-right: 35px;
     font-size: 16px;
 	border-bottom: 2px solid #ffffff;
-    /* color: var(--color-white); */
-    font-weight: 600;
 }
-.BanImg{
-    width: 100%;
-    border-radius: 50%;
-    background: linear-gradient(190deg, var(--logo-yellow-color), var(--logo-red-color) 70%);
-    border-radius: 25% 30% 75% 30% / 49% 30% 70% 51%; 
-    margin-top: 3%;
-}
-.Ban-By{
-    margin: auto;
-    display: block;
-    text-align: center;
-    /* height:100vh; */
-    /* background: linear-gradient(190deg, #346751 100%, #346751 100%);
-    border-radius: 25% 30% 75% 30% / 49% 30% 70% 51%; */
-    /* color: #ffffff; */
-}
-
-
-.Bnr-txt{
-    /* font-size: 60px;
-    line-height: 70px; */
-    /* color: #ffffff; */
-    font-style: normal;
-    /* color: #222222; */
-    font-weight: 700;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 48px;
-    margin-bottom: 40px;
-    line-height: 70px;
-    margin-top: 5%;
-}
-.bnr-sub-cnt{
-    font-size: 18px;
-    line-height: 1.5;
-    padding: 0px 10% 0px 10%;
-}
-.bnr-btn{
-    border-radius: 15px;
-    font-size: 18px;
-    background-color: #F06868 !important;
-    color: #ffffff !important;
-    margin-top: 10px;
-}
-.Abt-Img{
-    width: 100%;
-    border-radius: 10%;
-}
-.goalImg{
-    width: 80%;
-    border-radius: 20%;
-    margin: auto;
-    display: block;
-    align-items: center;
-}
-.BusDelImg{
-    width: 100%;
-}
-
-/* .Top-Bnr{ */
-    /* background: linear-gradient(300deg, #ff0099 100%, #ff0099 100%);
-    border-radius: 25% 30% 75% 30% / 49% 30% 70% 51%;
-    animation: move-up6 2s ease-in infinite alternate-reverse; */
-    /* width: 100%; */
+.nav-pos{
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     
-    /* background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); */
-    /* .circle {
-        width: 100px;
-        height: 100px;
-        background: repeating-linear-gradient(48deg, #3023ae 0%, #ff0099 100%);
-        border-radius: 25% 30% 75% 30% / 49% 30% 70% 51%;
-        position: absolute;
-        animation: move-up6 2s ease-in infinite alternate-reverse;
-      } */
-/* } */
-
-
-.para-by{
-    margin-top: 8%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
 }
 .heding{
     font-size: 36px;
@@ -127,6 +44,91 @@
     left: 0;
     bottom: 0;
 }
+/* Banner css */
+.BanImg{
+    width: 100%;
+    border-radius: 50%;
+    background: linear-gradient(190deg, var(--logo-yellow-color), var(--logo-red-color) 70%);
+    border-radius: 25% 30% 75% 30% / 49% 30% 70% 51%; 
+    margin-top: 3%;
+}
+.Ban-By{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+
+.Bnr-txt{
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    margin-bottom: 40px;
+    line-height: 70px;
+    margin-top: 5%;
+}
+.bnr-sub-cnt{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0px 10% 0px 10%;
+}
+.bnr-btn{
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: #F06868 !important;
+    color: #ffffff !important;
+    margin-top: 10px;
+}
+
+
+/* Cards Content Css */
+.grd-crd-by{
+    margin-top: 8%;
+}
+.grd-crd{
+    margin-bottom: 8%;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(27, 23, 23,0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    
+}
+.grd-crd-cnt{
+    margin-bottom: 10px;
+}
+.grp-crd-hed{
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.grd-crd-icon{
+    width: 25%;
+    margin: 20px;
+}
+.grp-crd-cnt{
+    font-size: 17px;
+    font-weight: 500;
+    color: #6c6e75;
+    padding: 5px 20px 10px 20px;
+}
+
+/* Profile Section Css */
+.Abt-Img{
+    width: 100%;
+    border-radius: 10%;
+}
+.para-by{
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
 .para-txt{
     font-size: 18px;
     font-weight: 400;
@@ -137,6 +139,17 @@
     line-height: 1.5;
     text-align: justify;
 }
+
+/* Objective Goals Css */
+.goalImg{
+    width: 80%;
+    border-radius: 20%;
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+
+/* Services Css */
 .ser-by{
     justify-content: center;
     align-items: center;
@@ -163,21 +176,78 @@
 .ser-img{
     width: 100%;
 }
-.PromCrd{
-    /* width: fit-content; */
-    padding: 18px;
+.card {
+    transition: .4s all ease-in;
+    border: none;
+    margin: 25px auto; 
+  }
+  
+  .card-img-top{
+    box-shadow: 0 0 25px rgba(0,0,0,.05);
     border-radius: 15px;
-    font-size: 16px;
-}
+  }
+  
+  .carousel-control-next-icon {
+    padding: 0 4px 0 0; 
+  }
+  .product_price {
+    float:right;
+    color:#c9c9c9;
+    font-size: 20px;
+    font-weight:400;
+  }
+  
+  
+  .product-detail {
+    position: absolute;
+    height: 75px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: hidden;
+    padding: 15px;
+    background-color: #00000090;
+    transition: all 0.35s;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgba(223, 217, 217);
+    align-items: center;
+    justify-content: center;
+  }
+  .card .product-detail h5
+  {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+   
+  }
+  
+  .card .product-detail .subheading {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+  }
+  
+  .card .product-detail blockquote 
+  {
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-size: 1em;
+    
+  }
+  .card:hover .product-detail {
+    height: calc(100%);
+    padding-top: 10px;
+  }
 
-.circle-pt{
-    border-radius: 50%;
-    display: inline-block;
-    border: 7px solid #00c389;
-    height: 20px;
-    width: 20px;
-    margin-right: 10px;
-}
+   /* Bi / Tricycle CSS */
 .bi-hed{
     text-align: center;
     margin-top: 8%;
@@ -193,49 +263,9 @@
     width: 100%;
     border-radius: 15px;
 }
-.pro-img{
-    width: 100%;
-    border-radius: 15px;
-}
-.grd-crd-by{
-    margin-top: 8%;
-    /* background-color: #00c389; */
-}
-.grd-crd{
-    margin-bottom: 8%;
-    /* border-radius: 40px 0 40px 0; */
-    border-radius: 15px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid; */
-    height: 100%;
-    width: 100%;
-    /* background: linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(50deg, transparent 70%,#007F73, #007F73) border-box,
-    linear-gradient(0deg, transparent 70%,#ffffff, #ffffff) border-box,
-    linear-gradient(120deg, transparent 70%,#ffffff, #ffffff) border-box,
-    linear-gradient(220deg, transparent 70%,#007F73, #007F73) border-box;
-    border: 2px solid transparent; */
-    
-}
-.grp-crd-hed{
-    /* color: #000; */
-    font-weight: 500;
-    font-size: 18px;
-    
-}
-.grd-crd-icon{
-    width: 25%;
-    margin: 20px;
-}
-.grp-crd-cnt{
-    font-size: 17px;
-    font-weight: 500;
-    color: #6c6e75;
-    padding: 5px 20px 10px 20px;
-}
-.cli-hed{
+
+  /* Our Clients Css */
+  .cli-hed{
     text-align: center;
     margin-top: 5%;
 }
@@ -246,13 +276,13 @@
       position: relative;
   }
   
-  .logo-slider:hover .logos-slide {
+  /* .logo-slider:hover .logos-slide {
       animation-play-state: paused;
-  }
+  } */
   
   .logos-slide {
       display: inline-block;
-      animation: 45s slide infinite linear;
+      animation: 35s slide infinite linear;
   }
   
   .logos-slide img {
@@ -277,21 +307,76 @@
 
 .ftr{
     margin-top: 40px;
-    background-color: #346751;
+    background: #272727;
     color: #ffffff;
 }
 .ftr li{
     line-height: 3;
     font-size: 20px;
 }
-
-
-
   
-  /***** FadeIn Underline *****/
-  /* .line {
-    border-bottom: 3px solid red;
-    width: 200px;
-    margin: auto;
-  } */
+/* Media Querys */
+@media  (max-width:575px) { 
+    .logo-img{
+        width: 60px;
+        height: 60px;
+    }
+    .logo h4{
+        margin-top: 32px;
+    }
+    .Nvlst{
+        margin-top: 30px;
+        float: left;
+    }
+    .Bnr-txt{
+        font-size: 40px;
+        line-height: 1.5;
+    }
+    .bnr-sub-cnt{
+        text-align: justify;
+    }
+    .grd-crd-cnt{
+        margin-bottom: 50px;
+    }
+    .grd-crd-icon{
+        width: 25%;
+        margin-top: -25px;
+    }
+    .pro-hed{
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .para-txt{
+        text-align: left;
+    }
+    .obj-hed{
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:767px) { 
 
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+ }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
